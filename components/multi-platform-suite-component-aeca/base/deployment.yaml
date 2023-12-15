@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: multi-platform-suite-component-aeca
     spec:
       containers:
-      - image: go-image:latest
+      - image: quay.io/redhat-appstudio-qe/multi-platform-build-tenant/multi-platform-suite-application-iqnf/multi-platform-suite-component-aeca@sha256:d42fce8d045f9b4937b0f335037cd2b2d0adeb74d9cf244867c47e1075db6d0d
         name: my-go
         ports:
         - containerPort: 8081
